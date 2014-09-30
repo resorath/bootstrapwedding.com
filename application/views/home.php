@@ -63,7 +63,7 @@
               <span id="banner-rear">
                 (Like which centrepiece, there are so many options!)
               </span>
-              <div class="btn btn-primary btn-large" id="banner-action-button">Take the Tour!</div>
+              <div class="btn btn-primary btn-large" id="banner-action-button">Start with the "Custom You" Wedding Website</div>
             </div>
 
           </div>
@@ -72,7 +72,7 @@
 
       <div id="followerbanner">
         <ul>
-          <li><span class="glyphicon glyphicon-ok"></span> Modern Mobile First Wedding Website</li>
+          <li><span class="glyphicon glyphicon-ok"></span> Modern Mobile-First Wedding Website</li>
           <li><span class="glyphicon glyphicon-ok"></span> Comprehensive Guest and RSVP Management</li>
           <li><span class="glyphicon glyphicon-ok"></span> Pre-Wedding Event Planning</li>
           <li><span class="glyphicon glyphicon-ok"></span> Crazy Customization Options</li>

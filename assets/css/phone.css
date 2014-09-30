@@ -75,7 +75,7 @@
 
 #banner
 {
-	background-position: 60% -50%;
+	background-position: 60% top;
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100%;
@@ -125,11 +125,11 @@
 #banner-action-button
 {
 	padding: 10px;
-	font-size: 1.5em;
+	font-size: 1.0em;
 	text-transform: uppercase;
 	font-weight: bold;
 	color: #D6C376;
-	width: 80%;
+	width: 95%;
 	margin-top: 60px;
 }
 
