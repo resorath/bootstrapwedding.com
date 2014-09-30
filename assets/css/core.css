@@ -36,12 +36,6 @@
 */
 
 
-
-@font-face {
-    font-family: Hofstad;
-    src: url('../fonts/DK-Hofstad.otf');
-}
-
 html, body
 {
 	margin: 0px;
@@ -70,7 +64,7 @@ html, body
 	float: right;
 	display: inline-block;
 	height: 40px;
-	width: 80px;
+	width: 140px;
 
 }
 
@@ -96,6 +90,9 @@ html, body
 	height: 100px;
 	width: 100%;
 	background-color: #FFFFFF;
+
+	background-color: #83C5D1;
+	margin-top: -10px;
 }
 
 #mainbar-container
@@ -105,9 +102,17 @@ html, body
 
 #mainbar h1
 {
-	font-family: Hofstad, Verdana, sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	
 	float: left;
-	font-variant: small-caps;
+	font-size: 2.0em;
+
+	margin-left: 70px;
+	padding-top: 15px;
+
+	color: #fff;
+
 
 }
 
@@ -131,6 +136,7 @@ html, body
 #mainbar-headerlinks > ul > li > a
 {
 	color: black;
+	color: #fff;
 }
 
 #mainbanner
@@ -149,6 +155,7 @@ html, body
 	width: 100%;
 	background-image: url('../img/bridge.jpg');
 	background-color: #3F4136;
+	font-family: 'Comfortaa', cursive;
 }
 
 
@@ -228,7 +235,7 @@ html, body
 	font-size: 2.5em;
 	text-transform: uppercase;
 	font-weight: bold;
-	color: #D6C376;
+	color: #fff;
 }
 
 #banner-shouter
