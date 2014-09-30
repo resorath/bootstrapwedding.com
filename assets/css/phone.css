@@ -1,0 +1,198 @@
+@media (max-width: 740px){
+
+
+
+/* Home */
+#topbar
+{
+	height: 20px;
+	width: 100%;
+
+}
+
+#topbar-left
+{
+	float: left;
+	display: inline-block;
+}
+
+#topbar-right
+{
+	float: right;
+	display: inline-block;
+	height: 20px;
+	width: 80px;
+
+}
+
+#signin-button
+{
+	padding-top: 0px;
+}
+
+#signin-button a
+{
+}
+
+
+#mainbar
+{
+	height: 80px;
+	width: 100%;
+}
+
+#mainbar-container
+{
+	margin-top: 0px;
+}
+
+#mainbar h1
+{
+	font-family: Hofstad, Verdana, sans-serif;
+	text-align: center;
+	font-variant: small-caps;
+	width: 100%;
+	font-size: 2.1em;
+
+}
+
+#mainbar-headerlinks
+{
+	display: none;
+
+}
+
+
+#mainbanner
+{
+	height: 500px;
+	width: 100%;
+	display: inline-block;
+}
+
+#banner
+{
+	background-position: 60% -50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	background-image: url('../img/bridge-mobile.jpg');
+	background-color: #3F4136;
+}
+
+#followerbanner
+{
+	background-color: #3F4136;
+	width: 100%;
+	height: 20px;
+	margin-top: -5px;
+	padding: 0px;
+}
+
+#followerbanner > ul
+{
+	display: none;
+}
+
+#followerbanner > p
+{
+	display: none;
+}
+
+#banner-rear
+{
+	display: none;
+}
+
+#banner-overlay-container
+{
+	position: relative;
+}
+
+#banner-overlay
+{
+	position: absolute;
+	top: 70px;
+	left: 0px;
+	width: 100%;
+	color: #fff;
+	z-index: 1;
+	text-align: center;
+}
+
+#banner-action-button
+{
+	background-color: #580000;
+	border-color: #580000;
+	padding: 10px;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #D6C376;
+	width: 80%;
+	margin-top: 60px;
+}
+
+#banner-shouter
+{
+	display: block;
+	text-transform: uppercase;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+#banner-follower
+{
+	display: block;
+	text-transform: none;
+	font-size: 1.5em;
+	padding-top: 30px;
+	color: #bbb;
+}
+
+#howitworks-content
+{
+	text-align: center;
+	margin-top: 60px;
+}
+
+#howitworks-message
+{
+	margin-top: 60px;
+	font-size: 1.2em;
+}
+
+#howitworks-content h2
+{
+	font-variant: small-caps;
+}
+
+#howitworks-cols
+{
+	margin-top: 60px;
+}
+
+#howitworks-cols h3
+{
+	font-size: 3.0em;
+	font-variant: small-caps;
+}
+
+#howitworks-cols img
+{
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+
+}
+
+#footer
+{
+	height: 140px;
+}
+
+/* END Home */
+
+
+}

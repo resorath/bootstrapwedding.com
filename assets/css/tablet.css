@@ -1,53 +1,4 @@
-/* YATCH CLUB 
- * -----
- * RULES OF YATCH CLUB
- * (NOTE: MEMBERS MUST WEAR NAUTICAL THEMED PASHMINA AFGHAN)
- *
- * #FFFFFF WHITE
- * #83C5D1 DARK BLUE
- * #B2D9D6 LIGHT BLUE
- * #798287 DARK GREY
- * #C3DCBF OFFENSIVE GREEN
- * #C7DAD4 PASSIVE GREEN
- *
- * MEMBERS ONLY
- */
-
- /* COBBLE
- * -----
- * 
- * #6E7273
- * #FEF0BF
- * #DBCBAA
- * #7B7C80
- * #BEB2A2
- * #FEFED8
-*/
-
-/* COBBLE CLUB 
-* ------
-*  
-* #245953
-* #CBC370
-* #3F4136
-* #893E42
-* #580000
-* #D6C376
-*/
-
-
-
-@font-face {
-    font-family: Hofstad;
-    src: url('../fonts/DK-Hofstad.otf');
-}
-
-html, body
-{
-	margin: 0px;
-	width: 100%;
-	height: 100%;
-}
+@media (max-width: 1200px) and (min-width: 740px){
 
 /* Home */
 #topbar
@@ -108,6 +59,7 @@ html, body
 	font-family: Hofstad, Verdana, sans-serif;
 	float: left;
 	font-variant: small-caps;
+	font-size: 2.0em;
 
 }
 
@@ -123,9 +75,9 @@ html, body
 {
 	display: inline-block;
 	list-style: none;
-	font-size: 1.5em;
-	padding-top: 32px;
-	padding-left: 30px;
+	font-size: 1.2em;
+	padding-top: 26px;
+	padding-left: 10px;
 }
 
 #mainbar-headerlinks > ul > li > a
@@ -142,7 +94,7 @@ html, body
 
 #banner
 {
-	background-position: center top;
+	background-position: 60% 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100%;
@@ -156,33 +108,19 @@ html, body
 {
 	background-color: #3F4136;
 	width: 100%;
-	height: 100px;
+	height: 20px;
 	margin-top: -5px;
 	padding: 0px;
 }
 
 #followerbanner > ul
 {
-	width: 100%;
-	display: table;
-}
-
-#followerbanner > ul > li
-{
-	display: inline-block;
-	list-style: none;
-	color: #fff;
-	padding-top: 40px;
-	width: 19%;
-	text-align: center;
-	white-space: nowrap;
+	display: none;
 }
 
 #followerbanner > p
 {
-	text-align: center;
-	color: #bbbbbb;
-	padding-top: 10px;
+	display: none;
 }
 
 #banner-rear
@@ -204,7 +142,7 @@ html, body
 	position: absolute;
 	top: 70px;
 	left: 0px;
-	width: 55%;
+	width: 70%;
 	color: #000;
 	z-index: 1;
 }
@@ -235,14 +173,14 @@ html, body
 {
 	display: block;
 	text-transform: uppercase;
-	font-size: 4em;
+	font-size: 3em;
 }
 
 #banner-follower
 {
 	display: block;
 	text-transform: none;
-	font-size: 2.5em;
+	font-size: 1.5em;
 	padding-top: 30px;
 }
 
@@ -298,3 +236,5 @@ html, body
 }
 
 /* END Home */
+
+}
