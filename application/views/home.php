@@ -86,12 +86,78 @@
       </div>
 
       <div id="howitworks">
-        <div class="container" id="howitworks-content">
+        <div class="container mainpage-container" id="howitworks-content">
           <h2>How It Works</h2>
 
           <p id="howitworks-message">
-            yolo
+            Your wedding website is your most important tool in communicating with your guests, it should be as thoughtfully crafted as your wedding.
+            Start with a timeless template, then match the colours to the rest of your wedding theme. Customize away! Then dive into the easy to use, powerful 
+            tools we provide to invite, communicate with, and delight your guests.
+
           </p>
+
+
+          <div class="row" id="howitworks-cols">
+
+            <div class="col-sm-3">
+              <img src="http://soapersstreet.tophatandmonocle.com/assets/img/signup.png">
+              <h3>Pick</h3>
+              <p>Choose a template, choose some colours, decide which pages make sense to you.</p>
+            </div>
+
+            <div class="col-sm-3">
+              <img src="http://soapersstreet.tophatandmonocle.com/assets/img/signup.png">
+              <h3>Populate</h3>
+              <p>Add details, events, pictures, directions, or whatever information your guests need.</p>
+            </div>
+
+            <div class="col-sm-3">
+              <img src="http://soapersstreet.tophatandmonocle.com/assets/img/signup.png">
+              <h3>Invite</h3>
+              <p>Facebook, spreadsheets, or our own intuitive interface.</p>
+            </div>
+            
+            <div class="col-sm-3">
+              <img src="http://soapersstreet.tophatandmonocle.com/assets/img/signup.png">
+              <h3>Delight</h3>
+              <p>Keep your guests up to date with the latest stories, photos, places to eat, and things to see.</p>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <p>
+
+
+      </div>
+
+      <div id="features-website">
+        <div id="features-website-left">
+        </div>
+        <div id="features-website-right">
+          <h2>Start with your Website</h2>
+          <p>Your guests don't sit at their computer anymore. Your wedding website should work flawlessly across phones, tablets, and computers. 
+          All our designs are hand crafted to look timeless across everyone's device. There's nothing special you have to do, it just works!</p> 
+        
+          <div id="mockups-container">
+            <div class="row">
+              <div class="col-sm-4">
+                <img src="<?=base_url() ?>assets/img/imac.png" class="mockup" id="mockup-imac">
+                <em class="figure">Design1 Name</em>
+              </div>
+              <div class="col-sm-4">
+                <img src="<?=base_url() ?>assets/img/iphone.png" class="mockup" id="mockup-iphone">
+                <em class="figure">Design2 Name</em>
+              </div>
+              <div class="col-sm-4">
+                <img src="<?=base_url() ?>assets/img/ipad.png" class="mockup" id="mockup-ipad">
+                <em class="figure">Design3 Name</em>
+              </div>
+            </div>
+          </div>
+
         </div>
 
       </div>

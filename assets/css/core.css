@@ -287,7 +287,7 @@ html, body
 	font-size: 1.2em;
 }
 
-#howitworks-content h2
+.mainpage-container h2
 {
 	font-variant: small-caps;
 }
@@ -316,4 +316,108 @@ html, body
 	height: 140px;
 }
 
+.width100p
+{
+	width: 100%;
+}
+
+.width45p
+{
+	width: 45%;
+}
+
+
 /* END Home */
+
+/* Features */
+#features-website
+{
+	margin-top: 50px;
+	font-size: 0px;
+}
+
+#features-website-left
+{
+	width: 50%;
+	height: 600px;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url('../img/coupletablet.jpg');
+	background-color: #3F4136;
+	color: #fff;
+	position: relative;
+	display: inline-block;
+	
+}
+
+#features-website-right
+{
+	width: 50%;
+	height: 600px;
+	background-color: #83C5D1;
+	display: inline-block;
+	font-size: 12px;
+	vertical-align: top;
+	text-align: center;
+	color: #fff;
+}
+
+.mockup
+{
+	padding-bottom: 15px;
+}
+
+#mockup-imac
+{
+	width: 100%;
+}
+
+#mockup-ipad
+{
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+#mockup-iphone
+{
+	width: 45%;
+}
+
+#features-website-right > h2
+{
+	padding: 0px;
+	margin: 0px;
+	padding-top: 30px;
+	font-size: 1.8em;
+		font-family: 'Comfortaa', cursive;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+
+#features-website-right > p
+{
+	padding: 20px;
+	text-align: justify;
+	font-size: 1.4em;
+}
+
+.figure
+{
+	display: block;
+	text-align: center;
+}
+
+#mockups-container
+{
+	width: 95%;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+
+#howitworks-content
+{
+	padding-top: 30px;
+}
