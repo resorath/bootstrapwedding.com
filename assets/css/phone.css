@@ -222,7 +222,7 @@
 #features-website-right
 {
 	width: 100%;
-	height: 1300px;
+	height: 1350px;
 	display: block;
 }
 
@@ -254,6 +254,11 @@
 	padding-bottom: 15px;
 }
 
+#mockups-container
+{
+	width: 100%;
+	margin: inherit;
+}
 
 
 }
