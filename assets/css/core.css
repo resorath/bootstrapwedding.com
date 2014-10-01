@@ -43,6 +43,16 @@ html, body
 	height: 100%;
 }
 
+.non-mobile-block-only
+{
+	display: block;
+}
+
+.mobile-block-only
+{
+	display: none;
+}
+
 /* Home */
 #topbar
 {
@@ -237,6 +247,8 @@ html, body
 	text-transform: uppercase;
 	color: #fff;
 }
+
+
 
 #banner-shouter
 {

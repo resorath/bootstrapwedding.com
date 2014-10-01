@@ -1,6 +1,14 @@
 @media (max-width: 740px){
 
+.non-mobile-block-only
+{
+	display: none;
+}
 
+.mobile-block-only
+{
+	display: block;
+}
 
 /* Home */
 #topbar
@@ -129,8 +137,10 @@
 	text-transform: uppercase;
 	font-weight: bold;
 	color: #D6C376;
-	width: 95%;
+	width: 80%;
 	margin-top: 60px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #banner-shouter
