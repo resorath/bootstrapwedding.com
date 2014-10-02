@@ -330,37 +330,47 @@ html, body
 /* END Home */
 
 /* Features */
-#features-website
+.features
 {
-	margin-top: 50px;
 	font-size: 0px;
+}
+
+.features-image
+{
+	width: 50%;
+	height: 600px;
+	color: #fff;
+	font-size: 12px;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	
+}
+
+.features-text
+{
+	width: 50%;
+	height: 600px;
+	display: inline-block;
+	font-size: 12px;
+	vertical-align: top;
+	text-align: center;
+
 }
 
 #features-website-left
 {
-	width: 50%;
-	height: 600px;
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-image: url('../img/coupletablet.jpg');
 	background-color: #3F4136;
-	color: #fff;
-	position: relative;
-	display: inline-block;
-	
 }
 
 #features-website-right
 {
-	width: 50%;
-	height: 600px;
-	background-color: #83C5D1;
-	display: inline-block;
-	font-size: 12px;
-	vertical-align: top;
-	text-align: center;
 	color: #fff;
+	background-color: #83C5D1;
 }
 
 .mockup
@@ -385,7 +395,7 @@ html, body
 	width: 45%;
 }
 
-#features-website-right > h2
+.features-text > h2
 {
 	padding: 0px;
 	margin: 0px;
@@ -397,7 +407,7 @@ html, body
 	letter-spacing: 3px;
 }
 
-#features-website-right > p
+.features-text > p
 {
 	padding: 20px;
 	text-align: justify;
@@ -408,6 +418,7 @@ html, body
 {
 	display: block;
 	text-align: center;
+	font-size: 10px;
 }
 
 #mockups-container
@@ -415,9 +426,43 @@ html, body
 	width: 95%;
 	margin: 0 auto;
 	padding-top: 40px;
+	font-size: 0px;
 }
 
 #howitworks-content
 {
 	padding-top: 30px;
+}
+
+.one-third-stacking-col
+{
+	width: 33%;
+	display: inline-block;
+}
+
+#features-super-container
+{
+	font-size: 0px;
+	margin-top: 50px;
+}
+
+#features-customize-left > p
+{
+	margin-top: 30px;
+}
+
+#features-customize-left
+{
+	color: #fff;
+	background-color: #83C5D1;
+
+}
+
+#features-customize-right
+{
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url('../img/computercouple.jpg');
+	background-color: #3F4136;
 }

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, minimal-ui, user-scalable=no">
     <title>BootStrap Wedding - Modern Wedding Websites, Guest Management, Wedding Planning</title>
     <link href="<?=base_url() ?>assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="<?=base_url() ?>assets/css/core.css" rel="stylesheet"> <!-- including desktop -->
@@ -133,32 +133,58 @@
 
       </div>
 
-      <div id="features-website">
-        <div id="features-website-left">
-        </div>
-        <div id="features-website-right">
-          <h2>Start with your Website</h2>
-          <p>Your guests don't sit at their computer anymore. Your wedding website should work flawlessly across phones, tablets, and computers. 
-          All our designs are hand crafted to look timeless across everyone's device. There's nothing special you have to do, it just works!</p> 
-        
-          <div id="mockups-container">
-            <div class="row">
-              <div class="col-sm-4">
+      <div id="features-super-container">
+
+        <div class="features">
+          <div class="features-image" id="features-website-left">
+          </div>
+          <div class="features-text" id="features-website-right">
+            <h2>Start with your Website</h2>
+            <p>Your guests don't sit at their computer anymore. Your wedding website should work flawlessly across phones, tablets, and computers. 
+            All our designs are hand crafted to look timeless across everyone's device. There's nothing special you have to do, it just works!</p> 
+          
+            <div id="mockups-container">
+              <div class="one-third-stacking-col">
                 <img src="<?=base_url() ?>assets/img/imac.png" class="mockup" id="mockup-imac">
                 <em class="figure">Design1 Name</em>
               </div>
-              <div class="col-sm-4">
+              <div class="one-third-stacking-col">
                 <img src="<?=base_url() ?>assets/img/iphone.png" class="mockup" id="mockup-iphone">
                 <em class="figure">Design2 Name</em>
               </div>
-              <div class="col-sm-4">
+              <div class="one-third-stacking-col">
                 <img src="<?=base_url() ?>assets/img/ipad.png" class="mockup" id="mockup-ipad">
                 <em class="figure">Design3 Name</em>
               </div>
             </div>
+
+
           </div>
 
+          <div class="features-footer mobile-block-only"></div>
+
         </div>
+
+        <div class="features">
+
+          <div class="features-text" id="features-customize-left">
+            <h2>Then Make it Yours</h2>
+   
+            <div id="mockups-container">
+              <iframe width="560" height="315" src="//www.youtube.com/embed/FsjwG3FQna4" frameborder="0" allowfullscreen></iframe>
+            </div>
+
+            <p>Use our powerful, intuitive editor to add as much or as little content as you like. Pictures, stories, schedules, things to do, places to eat, whatever you like! Then change the colours, add pages, delete pages, change the colours again. Change all the things!</p> 
+       
+          </div>
+
+          <div class="features-image" id="features-customize-right">
+          </div>
+
+          <div class="features-footer mobile-block-only"></div>
+
+        </div>
+
 
       </div>
 
