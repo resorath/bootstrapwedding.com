@@ -172,15 +172,19 @@
           <div class="features-text" id="features-customize-left">
             <h2>Then Make it Yours</h2>
    
-            <iframe width="560" height="315" src="//www.youtube.com/embed/FsjwG3FQna4" frameborder="0" allowfullscreen id="features-video-embed"></iframe>
 
             <p>Use our powerful, intuitive editor to add as much or as little content as you like. Pictures, stories, schedules, things to do, places to eat, whatever you like! Then change the colours, add pages, delete pages, change the colours again. Change all the things!</p> 
        
 
-           <div class="btn btn-primary btn-features-cta">Try the Editor</div>
+           <div class="btn btn-primary btn-features-cta" id="btn-features-cta-customize">Try the Editor</div>
           </div>
 
-          <div class="features-image" id="features-customize-right" id="btn-features-cta-customize">
+          <div class="features-image" id="features-customize-right">
+            <div id="features-video-container">
+              <div id="features-video-embed">
+                <iframe width="560" height="315" src="//www.youtube.com/embed/FsjwG3FQna4" frameborder="0" allowfullscreen id="features-video-embed-content"></iframe>
+              </div>
+            </div>
           </div>
 
           <div class="features-footer mobile-block-only"></div>
