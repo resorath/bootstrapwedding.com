@@ -448,7 +448,7 @@ html, body
 
 #features-customize-left > p
 {
-	margin-top: 30px;
+	margin-top: 20px;
 }
 
 #features-customize-left
@@ -465,4 +465,25 @@ html, body
 	background-size: cover;
 	background-image: url('../img/computercouple.jpg');
 	background-color: #3F4136;
+}
+
+.btn-features-cta
+{
+	background-color: #580000;
+	border-color: #580000;
+}
+
+#btn-features-cta-website
+{
+	margin-top: 50px;
+}
+
+#btn-features-cta-customize
+{
+	margin-top: 0px;
+}
+
+#features-video-embed
+{
+	margin-top: 20px;
 }
