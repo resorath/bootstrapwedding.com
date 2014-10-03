@@ -275,6 +275,11 @@ html, body
        1px 1px 0 #000;
 }
 
+#howitworks
+{
+	margin-bottom: 120px;
+}
+
 #howitworks-content
 {
 	text-align: center;
@@ -309,6 +314,11 @@ html, body
 	width: 80%;
 	margin: 0 auto;
 
+}
+
+#howitworks-cols p
+{
+	display: none;
 }
 
 #footer
@@ -424,6 +434,7 @@ html, body
 #mockups-container
 {
 	width: 95%;
+	max-width: 800px;
 	margin: 0 auto;
 	padding-top: 40px;
 	font-size: 0px;
@@ -491,6 +502,7 @@ html, body
 {
 	background-color: #580000;
 	border-color: #580000;
+	margin-bottom: 30px;
 }
 
 #btn-features-cta-website
