@@ -43,6 +43,24 @@ html, body
 	height: 100%;
 }
 
+h2
+{
+	padding: 0px;
+	margin: 0px;
+	padding-top: 30px;
+	font-size: 1.8em;
+	font-family: 'Comfortaa', cursive;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+
+p
+{
+	font-size: 1.5em;
+}
+
+
 .non-mobile-block-only
 {
 	display: block;
@@ -125,6 +143,15 @@ html, body
 	color: #fff;
 
 
+}
+
+
+#identity-logo
+{
+	margin: 0 auto;
+	padding: 0px;
+	margin: 0px;
+	margin-top: 15px;
 }
 
 #mainbar-headerlinks
@@ -289,7 +316,6 @@ html, body
 #howitworks-message
 {
 	margin-top: 60px;
-	font-size: 1.2em;
 }
 
 .mainpage-container h2
@@ -318,7 +344,8 @@ html, body
 
 #howitworks-cols p
 {
-	display: none;
+	font-style: italic;
+	font-size: 1.0em;
 }
 
 #footer
@@ -405,23 +432,11 @@ html, body
 	width: 45%;
 }
 
-.features-text > h2
-{
-	padding: 0px;
-	margin: 0px;
-	padding-top: 30px;
-	font-size: 1.8em;
-		font-family: 'Comfortaa', cursive;
-	text-transform: uppercase;
-	font-weight: bold;
-	letter-spacing: 3px;
-}
 
 .features-text > p
 {
 	padding: 20px;
 	text-align: justify;
-	font-size: 1.4em;
 }
 
 .figure
@@ -515,3 +530,64 @@ html, body
 	margin-top: 100px;
 }
 
+#features-guests
+{
+	margin-top: 60px;
+	text-align: center;
+}
+
+#features-guests p
+{
+	margin-top: 40px;
+}
+
+#features-guests-row
+{
+	margin-top: 60px;
+}
+
+#features-guests h3
+{
+	text-align: left;
+}
+
+#features-guests p
+{
+	margin-top: 40px;
+}
+.features-guests-details
+{
+	text-align: left;
+	vertical-align: middle;
+	margin-top: 30px;
+}
+
+.featureset-leadrow
+{
+	margin-top: 60px;
+}
+
+#features-interactive
+{
+	background-color: #3F4136;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	margin-top: 60px;
+}
+
+#features-interactive h2
+{
+	margin-top: 40px;
+}
+
+#features-interactive h3
+{
+	text-align: right;
+}
+
+
+.features-interactive-details
+{
+	text-align: right;
+}
