@@ -237,7 +237,7 @@ p
 
 	background-color: #3F4136;
 	width: 100%;
-	height: 20px;
+	height: 40px;
 	margin-top: -5px;
 	padding: 0px;
 }
@@ -625,4 +625,12 @@ p
 	margin-bottom: 150px;
 }
 
+#features-guests-intro
+{
+	margin-bottom: 100px;
+}
 
+#features-interactive-header
+{
+	margin-bottom: 100px;
+}

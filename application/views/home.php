@@ -90,8 +90,8 @@
 
         <p id="howitworks-message">
           Your wedding website is your most important tool in communicating with your guests, it should be as thoughtfully crafted as your wedding.
-          Start with a timeless template, then match the colours to the rest of your wedding theme. Customize away! Then dive into the easy to use, powerful 
-          tools we provide to invite, communicate with, and delight your guests.
+          Start with a timeless template, then match the colours to the rest of your wedding theme. Customize away! Then dive into our easy to use, powerful 
+          tools to invite, communicate with, organize, and delight your guests.
 
         </p>
 
@@ -119,7 +119,7 @@
           <div class="col-sm-3">
             <img src="<?=base_url() ?>assets/img/howitworks-delight.png">
             <h3>Delight</h3>
-            <p>Keep your guests up to date with the latest stories, photos, places to eat, and things to see.</p>
+            <p>Keep your guests up to date with the latest stories, events, photos, places to eat, and things to see.</p>
           </div>
 
         </div>
@@ -190,7 +190,7 @@
     <div id="features-guests" class="features-checkerboard-container">
       <div class="container">
        <h2>Your Guests</h2>
-       <p>Your guests are the most important part of your wedding. Your doing this for them as much as yourselves.</p>
+       <p id="features-guests-intro">Your guests are the most important part of your wedding. Your doing this for them as much as yourselves.</p>
 
        <div class="row featureset-leadrow">
         <div class="col-sm-6">
@@ -232,7 +232,7 @@
 
     <div id="features-interactive" class="features-checkerboard-container">
       <div class="container">
-        <h2>Get Interactive</h2>
+        <h2 id="features-interactive-header">Get Interactive</h2>
 
        <div class="row featureset-leadrow">
         <div class="col-sm-6">
