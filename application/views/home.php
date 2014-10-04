@@ -56,7 +56,7 @@
         <div class="container" id="banner-overlay-container">
           <div id="banner-overlay">
             <span class="" id="banner-shouter">
-              Kick start your wedding planning
+              Kick start your wedding
             </span>
             <span class="" id="banner-follower">
               We'll make the digital part easy, so you can focus on the hard parts.
@@ -187,38 +187,41 @@
 
     </div>
 
-    <div id="features-guests">
+    <div id="features-guests" class="features-checkerboard-container">
       <div class="container">
        <h2>Your Guests</h2>
        <p>Your guests are the most important part of your wedding. Your doing this for them as much as yourselves.</p>
 
        <div class="row featureset-leadrow">
-        <div class="col-sm-4">
-          
+        <div class="col-sm-6">
+          <img src="<?=base_url() ?>assets/img/RSVP.png">
         </div>
 
-        <div class="col-sm-8">
+        <div class="col-sm-6">
           <h3>Easily Collect Details</h3>
           <div class="features-guests-details">Import your contacts from Facebook, Gmail, Spreadsheets, or use our intuitive online tool. </div>
         </div>
        </div>
 
        <div class="row">
-        <div class="col-sm-4">
-          <img src="<?=base_url() ?>assets/img/RSVP.png">
-        </div>
-
-        <div class="col-sm-8">
+        <div class="col-sm-6">
           <h3>RSVP Online</h3>
           <div class="features-guests-details">Guests can come to your site and respond with their name, a code, or their e-mail. Ask your guests simple questions, such as meal choice.</div>
         </div>
+
+        <div class="col-sm-6">
+          <img src="<?=base_url() ?>assets/img/RSVP.png">
+        </div>
+
+
        </div>
 
        <div class="row">
-        <div class="col-sm-4">
+        <div class="col-sm-6">
+          <img src="<?=base_url() ?>assets/img/RSVP.png">
         </div>
 
-        <div class="col-sm-8">
+        <div class="col-sm-6">
           <h3>Create Groups</h3>
           <div class="features-guests-details">Put your guests into groups only you know about; such as your family, close friends, guests arriving from out of town, guests with special needs, etc. Each group can see different parts of your website, attend different pre-wedding events, see different photos, whatever you need!</div>
         </div>
@@ -227,41 +230,41 @@
       </div>
     </div>
 
-    <div id="features-interactive">
+    <div id="features-interactive" class="features-checkerboard-container">
       <div class="container">
         <h2>Get Interactive</h2>
 
        <div class="row featureset-leadrow">
-        <div class="col-sm-8">
+        <div class="col-sm-6">
           <h3>Host Pre-Wedding Events</h3>
           <div class="features-interactive-details">Host pre-wedding events and send the invite out to your guests. Send the invites only to groups you want attending.</div>
         
         </div>
 
-        <div class="col-sm-4">
+        <div class="col-sm-6">
         
         </div>
        </div>
 
        <div class="row">
-        <div class="col-sm-8">
-          <h3>Guest Contributed Photos</h3>
-          <div class="features-interactive-details">Your guests can upload photos they took of your wedding to the site for everyone to view.</div>
+        <div class="col-sm-6">
         </div>
 
-        <div class="col-sm-4">
+        <div class="col-sm-6">
+          <h3>Guest Contributed Photos</h3>
+          <div class="features-interactive-details">Your guests can upload photos they took of your wedding to the site for everyone to view.</div>
         </div>
 
        </div>
 
        <div class="row">
-        <div class="col-sm-8">
+        <div class="col-sm-6">
           <h3>Total Privacy</h3>
           <div class="features-interactive-details">Your data is your own. Take confidence in your address books, photos, locations, etc are safe from the outside world. Your wedding website is your own walled garden. When your done with your website, we'll give you a copy of it to download and then remove it from our servers.</div>
 
         </div>
 
-        <div class="col-sm-4">
+        <div class="col-sm-6">
 
         </div>
        </div>

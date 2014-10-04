@@ -196,7 +196,7 @@ p
 	font-family: 'Comfortaa', cursive;
 }
 
-
+/*
 #followerbanner
 {
 	background-color: #3F4136;
@@ -229,6 +229,30 @@ p
 	color: #bbbbbb;
 	padding-top: 10px;
 }
+*/
+
+/* TODO TMP */
+#followerbanner
+{
+
+	background-color: #3F4136;
+	width: 100%;
+	height: 20px;
+	margin-top: -5px;
+	padding: 0px;
+}
+
+#followerbanner > ul
+{
+	display: none;
+}
+
+#followerbanner > p
+{
+	display: none;
+}
+
+/* ENDS TODO TMP */
 
 #banner-rear
 {
@@ -408,6 +432,7 @@ p
 {
 	color: #fff;
 	background-color: #83C5D1;
+	padding: 30px;
 }
 
 .mockup
@@ -481,6 +506,7 @@ p
 {
 	color: #fff;
 	background-color: #83C5D1;
+	padding: 30px;
 
 }
 
@@ -560,6 +586,7 @@ p
 	text-align: left;
 	vertical-align: middle;
 	margin-top: 30px;
+	font-size: 1.4em;
 }
 
 .featureset-leadrow
@@ -590,4 +617,12 @@ p
 .features-interactive-details
 {
 	text-align: right;
+	font-size: 1.4em;
 }
+
+.features-checkerboard-container > .container > .row > .col-sm-6, .col-sm-4
+{
+	margin-bottom: 150px;
+}
+
+
