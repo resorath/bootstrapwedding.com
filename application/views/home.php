@@ -13,6 +13,8 @@
 
     <link href='http://fonts.googleapis.com/css?family=Comfortaa:400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -37,15 +39,16 @@
 
     <div id="mainbar">
       <div class="container" id="mainbar-container">
-        <h1 class="mobile-block-only">Bootstrap Wedding</h1>
-        <div class="non-mobile-block-only" id="identity-logo"><img src="<?=base_url() ?>assets/img/bootstrapwedding.png" alt="Bootstrap Wedding"></div>
+
+        <div id="identity-logo"><img src="<?=base_url() ?>assets/img/bootstraprings.png" alt="Bootstrap Wedding"></div>
+        <h1>Bootstrap Wedding</h1>
 
 
         <span id="mainbar-headerlinks">
           <ul>
-            <li><a href="#">Get Started</a></li>
-            <li><a href="#">How It Works</a></li>
-            <li><a href="#">FAQ</a></li>
+            <li><a href="#">get started</a></li>
+            <li><a href="#">how it works</a></li>
+            <li><a href="#">faq</a></li>
           </ul>
         </span>
       </div>
@@ -100,25 +103,25 @@
 
           <div class="col-sm-3">
             <img src="<?=base_url() ?>assets/img/howitworks-pick.png">
-            <h3>Pick</h3>
+            <h3>pick</h3>
             <p>Choose a template, choose some colours, decide which pages make sense to you.</p>
           </div>
 
           <div class="col-sm-3">
             <img src="<?=base_url() ?>assets/img/howitworks-populate.png">
-            <h3>Populate</h3>
+            <h3>populate</h3>
             <p>Add details, events, pictures, directions, or whatever information your guests need.</p>
           </div>
 
           <div class="col-sm-3">
             <img src="<?=base_url() ?>assets/img/howitworks-invite.png">
-            <h3>Invite</h3>
+            <h3>invite</h3>
             <p>Facebook, spreadsheets, or our own intuitive interface.</p>
           </div>
           
           <div class="col-sm-3">
             <img src="<?=base_url() ?>assets/img/howitworks-delight.png">
-            <h3>Delight</h3>
+            <h3>delight</h3>
             <p>Keep your guests up to date with the latest stories, events, photos, places to eat, and things to see.</p>
           </div>
 
