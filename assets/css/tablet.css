@@ -35,40 +35,6 @@
 }
 
 
-#mainbar
-{
-	height: 100px;
-	width: 100%;
-}
-
-#mainbar-container
-{
-	margin-top: 10px;
-}
-
-#mainbar h1
-{
-	text-align: center;
-	width: 100%;
-	font-variant: small-caps;
-	font-size: 2.0em;
-
-}
-
-#mainbar h1
-{
-	text-align: center;
-	font-variant: small-caps;
-	font-size: 2.0em;
-	padding: 0px;
-	margin: 0px;
-	padding-top: 35px;
-	width: 100%;
-	white-space: nowrap;
-
-
-}
-
 #mainbar-headerlinks
 {
 	float: right;
