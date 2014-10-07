@@ -195,9 +195,10 @@
        <h2>Your Guests</h2>
        <p id="features-guests-intro">Your guests are the most important part of your wedding. Your doing this for them as much as yourselves.</p>
 
-       <div class="row featureset-leadrow">
-        <div class="col-sm-6">
-          <img src="<?=base_url() ?>assets/img/RSVP.png">
+       <div class="row featureset-row featureset-leadrow">
+        <div class="col-sm-6 featureset-image">
+          <img src="<?=base_url() ?>assets/img/collectdetails.png" class="features-img">
+
         </div>
 
         <div class="col-sm-6">
@@ -206,22 +207,24 @@
         </div>
        </div>
 
-       <div class="row">
+       <div class="row featureset-row">
         <div class="col-sm-6">
           <h3>RSVP Online</h3>
           <div class="features-guests-details">Guests can come to your site and respond with their name, a code, or their e-mail. Ask your guests simple questions, such as meal choice.</div>
         </div>
 
-        <div class="col-sm-6">
-          <img src="<?=base_url() ?>assets/img/RSVP.png">
+        <div class="col-sm-6 featureset-image">
+          <img src="<?=base_url() ?>assets/img/RSVP.png" class="features-img">
+
         </div>
 
 
        </div>
 
-       <div class="row">
-        <div class="col-sm-6">
-          <img src="<?=base_url() ?>assets/img/RSVP.png">
+       <div class="row featureset-row">
+        <div class="col-sm-6 featureset-image">
+          <img src="<?=base_url() ?>assets/img/groupup.png" class="features-img">
+
         </div>
 
         <div class="col-sm-6">
@@ -237,38 +240,39 @@
       <div class="container">
         <h2 id="features-interactive-header">Get Interactive</h2>
 
-       <div class="row featureset-leadrow">
+       <div class="row featureset-row featureset-leadrow">
         <div class="col-sm-6">
           <h3>Host Pre-Wedding Events</h3>
-          <div class="features-interactive-details">Host pre-wedding events and send the invite out to your guests. Send the invites only to groups you want attending.</div>
+          <div class="features-interactive-details">Host pre-wedding events and send the invite out to your guests. Send the invites only to groups you want attending. Track your events from your calendar.</div>
         
         </div>
 
         <div class="col-sm-6">
-        
+          <img src="<?=base_url() ?>assets/img/createevent.png" class="features-img">
         </div>
        </div>
 
-       <div class="row">
+       <div class="row featureset-row">
         <div class="col-sm-6">
+          <img src="<?=base_url() ?>assets/img/importpictures.png" class="features-img">
         </div>
 
         <div class="col-sm-6">
-          <h3>Guest Contributed Photos</h3>
-          <div class="features-interactive-details">Your guests can upload photos they took of your wedding to the site for everyone to view.</div>
+          <h3>Guest Contributed Photo Albums</h3>
+          <div class="features-interactive-details">Your guests can upload photos they took of your wedding to the site for everyone to view. Take control and show only photos you approve. Mix in your own official photos for guests who couldn't attend.</div>
         </div>
 
        </div>
 
-       <div class="row">
+       <div class="row featureset-row">
         <div class="col-sm-6">
           <h3>Total Privacy</h3>
-          <div class="features-interactive-details">Your data is your own. Take confidence in your address books, photos, locations, etc are safe from the outside world. Your wedding website is your own walled garden. When your done with your website, we'll give you a copy of it to download and then remove it from our servers.</div>
+          <div class="features-interactive-details">Your data is your own. Take confidence in your address books, photos, locations, etc are safe from the outside world. Your wedding website is your own private venue.</div>
 
         </div>
 
         <div class="col-sm-6">
-
+          <img src="<?=base_url() ?>assets/img/privacy.png" class="features-img">
         </div>
        </div>
       </div>
