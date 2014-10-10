@@ -381,6 +381,18 @@ p
 #footer
 {
 	height: 140px;
+	text-align: center;
+}
+
+#thedetails
+{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+#footer p
+{
+	margin-bottom: 100px;
 }
 
 .width100p

@@ -279,7 +279,11 @@
     </div>
 
     <div id="footer">
+      <div class="container">
+        <h2 id="thedetails">The Details</h2>
+        <p>Bootstrap Wedding is still under development, so we don't have too many details yet. Stay tuned!</p>
 
+      </div>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
