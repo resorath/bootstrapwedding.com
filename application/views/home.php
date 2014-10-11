@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, minimal-ui, user-scalable=no">
     <title>BootStrap Wedding - Modern Wedding Websites, Guest Management, Wedding Planning</title>
     <link href="<?=base_url() ?>assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?=base_url() ?>assets/fonts/stylesheet.css" rel="stylesheet"> <!-- DONT USE THESE IN PRODUCTION, USE GOOGLE FONTS INSTEAD -->
     <link href="<?=base_url() ?>assets/css/core.css" rel="stylesheet"> <!-- including desktop -->
     <link href="<?=base_url() ?>assets/css/tablet.css" rel="stylesheet"> <!--or phablets or whatever -->
     <link href="<?=base_url() ?>assets/css/phone.css" rel="stylesheet"> <!-- smart phones... razr not supported -->
 
 
-    <link href='//fonts.googleapis.com/css?family=Comfortaa:400,700' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <!--<link href='//fonts.googleapis.com/css?family=Comfortaa:400,700' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>-->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
